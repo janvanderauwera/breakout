@@ -1,0 +1,63 @@
+.grid{
+	width: 560px;
+	height: 300px;
+	border: solid black 1px;
+	position: relative;
+}
+
+.block{
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	background-color: blue;
+	left: 20px;
+	bottom: 260px;
+}
+
+.userBlock{
+	position: absolute;
+	width: 80px;
+	height: 20px;
+	background-color: rgb(4, 255, 0);
+	left: 20px;
+	bottom: 260px;
+
+}
+
+.ball{
+
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-image: url(images/roelBal.png);
+	background-position-x: center;
+	background-position-y:center;
+	background-repeat: none;
+	position: absolute;
+	
+
+}
+
+p2{
+
+	margin-bottom: 5px;
+	display:inline-block;
+	margin-right: 1px;
+	margin-top: 0px;
+}
+
+.gameOver{
+position: absolute;
+left: 240px;	
+bottom: 150px;
+width: 100px;
+color: red;
+
+
+
+}
+
+.hidden{
+	display: none;
+
+}
